@@ -56,7 +56,7 @@ import java.util.Random;
       long endSearch = System.nanoTime();
 
       // time interval
-      long time = (endSearch - startSearch);
+      long time = endSearch - startSearch;
 
       if (print) {
         System.out.printf("%d,%d%n", N, time);
