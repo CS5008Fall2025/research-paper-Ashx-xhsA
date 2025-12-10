@@ -40,7 +40,7 @@ class IntervalSTImplTest {
     st.put(30, 40, "No Match");
     st.put(5, 12, "Target 3");  // overlaps 10-20
 
-    // Search for [11, 13] -> Should match Target 1, Target 3
+
     System.out.println("  Querying [11, 13]...");
     Iterable<String> results = st.intersect(11, 13);
     int count = 0;
@@ -66,7 +66,7 @@ class IntervalSTImplTest {
     // Delete
     st.delete(10, 20);
 
-    // Verify gone
+    // Verify deletion
     if (st.get(12, 13) == null) System.out.println("  [PASS] Item deleted successfully.");
     else System.out.println("  [FAIL] Item still exists after delete.");
   }
