@@ -1,7 +1,7 @@
 import static org.junit.jupiter.api.Assertions.*;
 
 class IntervalSTImplTest {
-  public static void main(String[] args) {
+  public static void main() {
     testBasicPutAndGet();
     testSearchAllIntersections();
     testDeletion();
