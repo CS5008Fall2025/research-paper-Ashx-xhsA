@@ -172,7 +172,7 @@ The following are the experimental data:
 
 When N increases by a factor of 10,000, the query time only increases by approximately 33%. This aligns with logarithmic growth behavior.
 
-![image-20251210080732214](/Users/mineral/Desktop/research-paper-Ashx-xhsA/Data.png)
+![image-20251210080732214](./Data.png)
 
 Taking the logarithm of N and performing linear regression yields the fitting equation:
 
@@ -180,7 +180,7 @@ $$time = 26889 × log₁₀(N) + 119005$$
 
 $R² ≈ 0.68 $
 
-![image-20251210082534127](/Users/mineral/Desktop/research-paper-Ashx-xhsA/Linear.png)
+![image-20251210082534127](./Linear.png)
 
 The fit is moderately good, showing a linear growth trend.
 
